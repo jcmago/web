@@ -26,3 +26,8 @@ body {
       p:last-child{
       float:right;
       }
+input[type='text'],
+input[type='number'],
+input {
+font-size: 16px;
+}
