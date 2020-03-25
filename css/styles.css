@@ -2,30 +2,13 @@ body {
       width:500px; 
       border: 3px solid #4a91d8; 
       } 
-      h1{
-      color: #4a91d8;
-      text-align:center;
-      text-shadow: 1px 3px 2px #000;
-      }
-      p {      
-      font-size:18px;  
-      padding:5px 0; 
-      margin:10px; 
-      width:220px; 
-      height:320px; 
-      border:2px solid #4a91d8; 
-      } 
-      div::after {
+      
+div::after {
       content: "";
       clear: both;
       display: table;
       }
-      p:first-child{
-      float:left;
-      }
-      p:last-child{
-      float:right;
-      }
+  
 input[type='text'],
 input[type='number'],
 input {
